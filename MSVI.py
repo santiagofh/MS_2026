@@ -7,7 +7,7 @@ meta_tag = 'MSVI'
 meta_nacional = 0.6
 meta_titulo = 'Meta VI: Prevalencia de Lactancia Materna Exclusiva (LME) en menores de 6 meses de vida'
 
-deis_path = r"D:\DATA\ESTABLECIMIENTOS\Establecimientos DEIS MINSAL 30-01-2026.xlsx"
+deis_path = "data/Establecimientos DEIS MINSAL 30-01-2026.xlsx"
 
 df_ms = pd.read_csv('MS2026_v2.csv')
 col_est = ['C\u00f3digo Vigente', 'Nombre Oficial', 'Nombre Dependencia Jer\u00e1rquica (SEREMI / Servicio de Salud)', 'Nombre Comuna']

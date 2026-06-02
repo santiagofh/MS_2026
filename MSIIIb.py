@@ -7,7 +7,7 @@ meta_tag = 'MSIIIb'
 meta_nacional = 0.16
 meta_titulo = 'Meta III.B: Ni\u00f1os y ni\u00f1as de 6 a\u00f1os libres de caries'
 
-deis_path = r"D:\DATA\ESTABLECIMIENTOS\Establecimientos DEIS MINSAL 30-01-2026.xlsx"
+deis_path = "data/Establecimientos DEIS MINSAL 30-01-2026.xlsx"
 
 df_ms = pd.read_csv('MS2026_v2.csv')
 col_est = ['C\u00f3digo Vigente', 'Nombre Oficial', 'Nombre Dependencia Jer\u00e1rquica (SEREMI / Servicio de Salud)', 'Nombre Comuna']

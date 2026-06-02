@@ -7,7 +7,7 @@ meta_tag = 'MSIVa'
 meta_nacional = 0.29
 meta_titulo = 'Meta IV.A: Cobertura efectiva de tratamiento de DM2 en personas de 15 y m\u00e1s a\u00f1os'
 
-deis_path = r"D:\DATA\ESTABLECIMIENTOS\Establecimientos DEIS MINSAL 30-01-2026.xlsx"
+deis_path = "data/Establecimientos DEIS MINSAL 30-01-2026.xlsx"
 
 df_ms = pd.read_csv('MS2026_v2.csv')
 col_est = ['C\u00f3digo Vigente', 'Nombre Oficial', 'Nombre Dependencia Jer\u00e1rquica (SEREMI / Servicio de Salud)', 'Nombre Comuna']

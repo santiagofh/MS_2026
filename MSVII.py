@@ -7,7 +7,7 @@ meta_tag = 'MSVII'
 meta_nacional = 0.1
 meta_titulo = 'Meta VII: Cobertura efectiva de tratamiento en enfermedades respiratorias cr\u00f3nicas (asma y EPOC) en personas de 5 a\u00f1os y m\u00e1s'
 
-deis_path = r"D:\DATA\ESTABLECIMIENTOS\Establecimientos DEIS MINSAL 30-01-2026.xlsx"
+deis_path = "data/Establecimientos DEIS MINSAL 30-01-2026.xlsx"
 
 df_ms = pd.read_csv('MS2026_v2.csv')
 col_est = ['C\u00f3digo Vigente', 'Nombre Oficial', 'Nombre Dependencia Jer\u00e1rquica (SEREMI / Servicio de Salud)', 'Nombre Comuna']

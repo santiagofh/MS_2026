@@ -7,7 +7,7 @@ meta_tag = 'MSV'
 meta_nacional = 0.45
 meta_titulo = 'Meta V: Cobertura de tratamiento en personas con HTA'
 
-deis_path = r"D:\DATA\ESTABLECIMIENTOS\Establecimientos DEIS MINSAL 30-01-2026.xlsx"
+deis_path = "data/Establecimientos DEIS MINSAL 30-01-2026.xlsx"
 
 df_ms = pd.read_csv('MS2026_v2.csv')
 col_est = ['C\u00f3digo Vigente', 'Nombre Oficial', 'Nombre Dependencia Jer\u00e1rquica (SEREMI / Servicio de Salud)', 'Nombre Comuna']
