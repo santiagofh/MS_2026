@@ -9,7 +9,7 @@ meta_titulo = 'Meta II: Detecci\u00f3n precoz del c\u00e1ncer de cuello uterino'
 
 deis_path = "data/Establecimientos DEIS MINSAL 30-01-2026.xlsx"
 
-df_ms = pd.read_csv('MS2026_v2.csv')
+df_ms = pd.read_csv('MS2026_v3.csv')
 col_est = ['C\u00f3digo Vigente', 'Nombre Oficial', 'Nombre Dependencia Jer\u00e1rquica (SEREMI / Servicio de Salud)', 'Nombre Comuna']
 col_rename = {
     'C\u00f3digo Vigente': 'IdEstablecimiento',

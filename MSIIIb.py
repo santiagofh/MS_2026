@@ -4,12 +4,12 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 meta_tag = 'MSIIIb'
-meta_nacional = 0.16
+meta_nacional = 0.22
 meta_titulo = 'Meta III.B: Ni\u00f1os y ni\u00f1as de 6 a\u00f1os libres de caries'
 
 deis_path = "data/Establecimientos DEIS MINSAL 30-01-2026.xlsx"
 
-df_ms = pd.read_csv('MS2026_v2.csv')
+df_ms = pd.read_csv('MS2026_v3.csv')
 col_est = ['C\u00f3digo Vigente', 'Nombre Oficial', 'Nombre Dependencia Jer\u00e1rquica (SEREMI / Servicio de Salud)', 'Nombre Comuna']
 col_rename = {
     'C\u00f3digo Vigente': 'IdEstablecimiento',

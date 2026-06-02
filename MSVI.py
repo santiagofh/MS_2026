@@ -9,7 +9,7 @@ meta_titulo = 'Meta VI: Prevalencia de Lactancia Materna Exclusiva (LME) en meno
 
 deis_path = "data/Establecimientos DEIS MINSAL 30-01-2026.xlsx"
 
-df_ms = pd.read_csv('MS2026_v2.csv')
+df_ms = pd.read_csv('MS2026_v3.csv')
 col_est = ['C\u00f3digo Vigente', 'Nombre Oficial', 'Nombre Dependencia Jer\u00e1rquica (SEREMI / Servicio de Salud)', 'Nombre Comuna']
 col_rename = {
     'C\u00f3digo Vigente': 'IdEstablecimiento',
