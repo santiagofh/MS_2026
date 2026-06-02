@@ -7,17 +7,17 @@ meta_tag = 'MSVI'
 meta_nacional = 0.6
 meta_titulo = 'Meta VI: Prevalencia de Lactancia Materna Exclusiva (LME) en menores de 6 meses de vida'
 
-deis_path = "data/Establecimientos DEIS MINSAL 30-01-2026.xlsx"
+deis_path = "data/establecimientos_deis_actual.xlsx"
 
 df_ms = pd.read_csv('MS2026_v3.csv')
-col_est = ['C\u00f3digo Vigente', 'Nombre Oficial', 'Nombre Dependencia Jer\u00e1rquica (SEREMI / Servicio de Salud)', 'Nombre Comuna']
+col_est = ['EstablecimientoCodigo', 'EstablecimientoGlosa', 'SeremiSaludGlosa_ServicioDeSaludGlosa', 'ComunaGlosa']
 col_rename = {
-    'C\u00f3digo Vigente': 'IdEstablecimiento',
-    'Nombre Oficial': 'nombre_establecimiento',
-    'Nombre Dependencia Jer\u00e1rquica (SEREMI / Servicio de Salud)': 'servicio_salud',
-    'Nombre Comuna': 'comuna'
+    'EstablecimientoCodigo': 'IdEstablecimiento',
+    'EstablecimientoGlosa': 'nombre_establecimiento',
+    'SeremiSaludGlosa_ServicioDeSaludGlosa': 'servicio_salud',
+    'ComunaGlosa': 'comuna'
 }
-df_est = pd.read_excel(deis_path, skiprows=1, usecols=col_est)
+df_est = pd.read_excel(deis_path, sheet_name='establecimientos', usecols=col_est)
 df_est = df_est.rename(columns=col_rename)
 df_ms1 = df_ms.loc[df_ms.MetaSanitaria == meta_tag]
 df_ms1 = df_ms1.merge(df_est, on='IdEstablecimiento', how='left')

@@ -63,14 +63,13 @@ if leer:
     df_rem_2026 = leer_y_filtrar_archivos(directory_2026, all_codes)
     df_rem_2025 = leer_y_filtrar_archivos(directory_2025, all_codes)
 
-path_deis = r"D:\DATA\ESTABLECIMIENTOS\Establecimientos DEIS MINSAL 30-01-2026.xlsx"
-df_deis = pd.read_excel(path_deis, skiprows=1)
+path_deis = "data/establecimientos_deis_actual.xlsx"
+df_deis = pd.read_excel(path_deis, sheet_name='establecimientos')
 
 df_deis = df_deis.rename(columns={
-    'Código Vigente': 'IdEstablecimiento',
-    'Código Dependencia Jerárquica (SEREMI / Servicio de Salud)': 'IdServicio',
-    'Código Región': 'IdRegion',
-    'IdComuna': 'Código Comuna'
+    'EstablecimientoCodigo': 'IdEstablecimiento',
+    'DependenciaAdministrativa': 'Dependencia Administrativa',
+    'NivelAtencionEstabglosa': 'Nivel de Atención'
 })
 
 path_fonasa = r"C:\Users\fariass\OneDrive - SUBSECRETARIA DE SALUD PUBLICA\SEREMIRM - Estadistica\A Estadisticas Sanitarias y Demograficas\POBLACIONES\INSCRITOS\Datos FONASA\Inscritos 2025 (Base pago 2026)\T9626 Inscritos APS RM.xlsx"
@@ -452,6 +451,12 @@ dfs_finales.append(preparar_df_final(df_MSVII, 'MSVII', 'Numerador_MSVII', 'Deno
 
 df_final = pd.concat(dfs_finales, ignore_index=True)
 
+# Crosswalk: códigos FONASA no vigentes en DEIS → código DEIS actual
+codigo_crosswalk = {
+    '311001': '201674',  # Cesfam El Abrazo Dr. Salvador Allende Gossens
+}
+df_final['IdEstablecimiento'] = df_final['IdEstablecimiento'].astype(str).replace(codigo_crosswalk)
+
 if 'Dependencia Administrativa' in df_deis.columns:
     dep_col = 'Dependencia Administrativa'
 else:
@@ -464,6 +469,7 @@ else:
 
 cols_merge_deis = ['IdEstablecimiento', dep_col, nivel_col]
 df_deis_merge = df_deis.drop_duplicates(subset=['IdEstablecimiento'])
+df_deis_merge['IdEstablecimiento'] = df_deis_merge['IdEstablecimiento'].astype(str)
 
 df_final2 = pd.merge(df_final,
                      df_deis_merge[cols_merge_deis],

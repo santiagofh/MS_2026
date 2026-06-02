@@ -19,6 +19,29 @@ def home():
     st.write(fecha_corte[['REM', 'Fecha_corte']].rename(columns={'Fecha_corte': 'Fecha Corte'}))
     st.write(""" comprometidos a proporcionar información precisa y actualizada para apoyar la toma de decisiones en el ámbito de la salud pública.""")
 
+    st.subheader("Correspondencia de códigos FONASA → DEIS")
+
+    st.info("""
+    Al cruzar los datos REM/FONASA con el listado oficial de establecimientos
+    del DEIS, **2 códigos** no fueron encontrados en el registro vigente.
+
+    Para no excluir a estos establecimientos del cálculo de las Metas Sanitarias 2026,
+    se realizó una **correspondencia manual** con su código DEIS actual:
+    """)
+
+    cw = pd.DataFrame({
+        "Código en FONASA": ["311001"],
+        "Código DEIS vigente": ["201674"],
+        "Nombre": ["CESFAM El Abrazo Dr. Salvador Allende Gossens"],
+    })
+    st.table(cw)
+
+    st.caption("""
+    El código **5013502** (Dasalhué, comuna de Alhué) no pudo ser vinculado
+    a ningún código DEIS vigente. Representa aproximadamente 4 inscritos en total,
+    impacto insignificante en el cálculo.
+    """)
+
 pages = {
     "Menu principal": [
         st.Page(home, default=True, title="Pagina de inicio", icon=":material/home:")

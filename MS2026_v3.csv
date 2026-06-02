@@ -1,7 +1,7 @@
 IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Administrativa,Nivel de Atención
-109104,2025,10,1.0,,MSI,Servicio de Salud,Pendiente
-109104,2025,11,0.0,,MSI,Servicio de Salud,Pendiente
-109104,2026,2,2.0,1.0,MSI,Servicio de Salud,Pendiente
+109104,2025,10,1.0,,MSI,Servicio de Salud,
+109104,2025,11,0.0,,MSI,Servicio de Salud,
+109104,2026,2,2.0,1.0,MSI,Servicio de Salud,
 109300,2025,10,0.0,0.0,MSI,Municipal,Primario
 109300,2025,11,1.0,0.0,MSI,Municipal,Primario
 109300,2025,12,1.0,0.0,MSI,Municipal,Primario
@@ -153,12 +153,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109718,2025,12,2.0,0.0,MSI,Municipal,Primario
 109718,2026,1,,1.0,MSI,Municipal,Primario
 109718,2026,2,,1.0,MSI,Municipal,Primario
-110160,2025,10,0.0,1.0,MSI,Servicio de Salud,Pendiente
-110160,2025,11,1.0,5.0,MSI,Servicio de Salud,Pendiente
-110160,2025,12,0.0,0.0,MSI,Servicio de Salud,Pendiente
-110160,2026,1,0.0,5.0,MSI,Servicio de Salud,Pendiente
-110160,2026,2,1.0,1.0,MSI,Servicio de Salud,Pendiente
-110160,2026,3,4.0,2.0,MSI,Servicio de Salud,Pendiente
+110160,2025,10,0.0,1.0,MSI,Servicio de Salud,
+110160,2025,11,1.0,5.0,MSI,Servicio de Salud,
+110160,2025,12,0.0,0.0,MSI,Servicio de Salud,
+110160,2026,1,0.0,5.0,MSI,Servicio de Salud,
+110160,2026,2,1.0,1.0,MSI,Servicio de Salud,
+110160,2026,3,4.0,2.0,MSI,Servicio de Salud,
 110308,2025,10,8.0,9.0,MSI,Municipal,Primario
 110308,2025,11,9.0,4.0,MSI,Municipal,Primario
 110308,2025,12,0.0,,MSI,Municipal,Primario
@@ -541,11 +541,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111400,2025,10,0.0,,MSI,Servicio de Salud,Primario
 111400,2025,12,2.0,1.0,MSI,Servicio de Salud,Primario
 111400,2026,1,,0.0,MSI,Servicio de Salud,Primario
-111704,2025,12,,0.0,MSI,Municipal,Primario
-111704,2026,2,,1.0,MSI,Municipal,Primario
-111780,2025,10,,0.0,MSI,Municipal,Primario
-111780,2026,1,0.0,,MSI,Municipal,Primario
-111780,2026,2,,2.0,MSI,Municipal,Primario
+111704,2025,12,,0.0,MSI,Servicio de Salud,Primario
+111704,2026,2,,1.0,MSI,Servicio de Salud,Primario
+111780,2025,10,,0.0,MSI,Servicio de Salud,Primario
+111780,2026,1,0.0,,MSI,Servicio de Salud,Primario
+111780,2026,2,,2.0,MSI,Servicio de Salud,Primario
 111781,2026,3,,0.0,MSI,Servicio de Salud,Primario
 111783,2025,11,,1.0,MSI,Municipal,Primario
 111783,2025,12,1.0,,MSI,Municipal,Primario
@@ -1057,12 +1057,12 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114322,2026,1,1.0,4.0,MSI,Municipal,Primario
 114322,2026,2,8.0,0.0,MSI,Municipal,Primario
 114322,2026,3,6.0,5.0,MSI,Municipal,Primario
-114323,2025,10,,1.0,MSI,Delegados ,Primario
-114323,2025,11,1.0,0.0,MSI,Delegados ,Primario
-114323,2025,12,0.0,3.0,MSI,Delegados ,Primario
-114323,2026,1,,0.0,MSI,Delegados ,Primario
-114323,2026,2,0.0,2.0,MSI,Delegados ,Primario
-114323,2026,3,,1.0,MSI,Delegados ,Primario
+114323,2025,10,,1.0,MSI,Delegado,Primario
+114323,2025,11,1.0,0.0,MSI,Delegado,Primario
+114323,2025,12,0.0,3.0,MSI,Delegado,Primario
+114323,2026,1,,0.0,MSI,Delegado,Primario
+114323,2026,2,0.0,2.0,MSI,Delegado,Primario
+114323,2026,3,,1.0,MSI,Delegado,Primario
 114324,2025,10,1.0,0.0,MSI,Municipal,Primario
 114324,2025,11,,0.0,MSI,Municipal,Primario
 114324,2025,12,,0.0,MSI,Municipal,Primario
@@ -1081,23 +1081,23 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114326,2026,1,5.0,1.0,MSI,Municipal,Primario
 114326,2026,2,3.0,2.0,MSI,Municipal,Primario
 114326,2026,3,1.0,3.0,MSI,Municipal,Primario
-114327,2025,10,1.0,1.0,MSI,Delegados ,Primario
-114327,2025,11,1.0,0.0,MSI,Delegados ,Primario
-114327,2025,12,2.0,0.0,MSI,Delegados ,Primario
-114327,2026,1,,0.0,MSI,Delegados ,Primario
-114327,2026,2,0.0,1.0,MSI,Delegados ,Primario
-114327,2026,3,0.0,2.0,MSI,Delegados ,Primario
+114327,2025,10,1.0,1.0,MSI,Delegado,Primario
+114327,2025,11,1.0,0.0,MSI,Delegado,Primario
+114327,2025,12,2.0,0.0,MSI,Delegado,Primario
+114327,2026,1,,0.0,MSI,Delegado,Primario
+114327,2026,2,0.0,1.0,MSI,Delegado,Primario
+114327,2026,3,0.0,2.0,MSI,Delegado,Primario
 114328,2025,10,3.0,,MSI,Municipal,Primario
 114328,2025,11,3.0,,MSI,Municipal,Primario
 114328,2026,1,,1.0,MSI,Municipal,Primario
 114328,2026,2,,3.0,MSI,Municipal,Primario
 114328,2026,3,,2.0,MSI,Municipal,Primario
-114329,2025,10,0.0,3.0,MSI,Delegados ,Primario
-114329,2025,11,1.0,0.0,MSI,Delegados ,Primario
-114329,2025,12,0.0,2.0,MSI,Delegados ,Primario
-114329,2026,1,1.0,1.0,MSI,Delegados ,Primario
-114329,2026,2,3.0,0.0,MSI,Delegados ,Primario
-114329,2026,3,0.0,,MSI,Delegados ,Primario
+114329,2025,10,0.0,3.0,MSI,Delegado,Primario
+114329,2025,11,1.0,0.0,MSI,Delegado,Primario
+114329,2025,12,0.0,2.0,MSI,Delegado,Primario
+114329,2026,1,1.0,1.0,MSI,Delegado,Primario
+114329,2026,2,3.0,0.0,MSI,Delegado,Primario
+114329,2026,3,0.0,,MSI,Delegado,Primario
 114330,2025,10,1.0,0.0,MSI,Municipal,Primario
 114330,2025,11,2.0,0.0,MSI,Municipal,Primario
 114330,2025,12,0.0,0.0,MSI,Municipal,Primario
@@ -1273,7 +1273,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109323,,,,5429.0,MSII,Municipal,Primario
 109324,,,,16359.0,MSII,Municipal,Primario
 109390,,,,7873.0,MSII,Otra Institución,Primario
-109407,,,,3084.0,MSII,,
+109407,,,,3084.0,MSII,Municipal,Primario
 109410,,,,130.0,MSII,Municipal,Primario
 109412,,,,201.0,MSII,Municipal,Primario
 109413,,,,193.0,MSII,Municipal,Primario
@@ -1290,7 +1290,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109715,,,,1166.0,MSII,Municipal,Primario
 109716,,,,348.0,MSII,Municipal,Primario
 109718,,,,2626.0,MSII,Municipal,Primario
-110160,,,,6130.0,MSII,Servicio de Salud,Pendiente
+110160,,,,6130.0,MSII,Servicio de Salud,
 110300,,,,2.0,MSII,Servicio de Salud,Secundario
 110308,,,,12042.0,MSII,Municipal,Primario
 110310,,,,9004.0,MSII,Servicio de Salud,Primario
@@ -1345,7 +1345,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110503,,,,496.0,MSII,Municipal,Primario
 110505,,,,5.0,MSII,Municipal,Primario
 110510,,,,28.0,MSII,Municipal,Primario
-110515,,,,5.0,MSII,,
+110515,,,,5.0,MSII,Municipal,Primario
 110720,,,,10.0,MSII,Municipal,Primario
 110725,,,,14.0,MSII,Municipal,Primario
 110735,,,,28.0,MSII,Municipal,Primario
@@ -1381,10 +1381,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111382,,,,14248.0,MSII,Municipal,Primario
 111383,,,,9950.0,MSII,Municipal,Primario
 111400,,,,110.0,MSII,Servicio de Salud,Primario
-111704,,,,532.0,MSII,Municipal,Primario
-111780,,,,249.0,MSII,Municipal,Primario
+111704,,,,532.0,MSII,Servicio de Salud,Primario
+111780,,,,249.0,MSII,Servicio de Salud,Primario
 111781,,,,198.0,MSII,Servicio de Salud,Primario
-111782,,,,208.0,MSII,,
+111782,,,,208.0,MSII,Municipal,Primario
 111783,,,,775.0,MSII,Municipal,Primario
 111784,,,,486.0,MSII,Municipal,Primario
 112300,,,,3.0,MSII,Servicio de Salud,Secundario
@@ -1408,13 +1408,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112320,,,,5735.0,MSII,Municipal,Primario
 112321,,,,6974.0,MSII,Municipal,Primario
 112322,,,,7079.0,MSII,Municipal,Primario
-112323,,,,18.0,MSII,Municipal,No Aplica
+112323,,,,18.0,MSII,Municipal,Primario
 112407,,,,10.0,MSII,Municipal,Primario
 112707,,,,614.0,MSII,Municipal,Primario
 112716,,,,101.0,MSII,Municipal,Primario
 112717,,,,3869.0,MSII,Municipal,Primario
 112799,,,,4.0,MSII,Municipal,Primario
-113181,,,,6.0,MSII,,
+113181,,,,6.0,MSII,Servicio de Salud,Secundario
 113300,,,,20003.0,MSII,Municipal,Primario
 113301,,,,6409.0,MSII,Municipal,Primario
 113302,,,,13915.0,MSII,Municipal,Primario
@@ -1474,7 +1474,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113790,,,,2127.0,MSII,Municipal,Primario
 114010,,,,1.0,MSII,Servicio de Salud,No Aplica
 114102,,,,1953.0,MSII,Servicio de Salud,Terciario
-114150,,,,8.0,MSII,,
+114150,,,,8.0,MSII,Servicio de Salud,Secundario
 114301,,,,26056.0,MSII,Municipal,Primario
 114302,,,,8629.0,MSII,Municipal,Primario
 114303,,,,16630.0,MSII,Municipal,Primario
@@ -1497,13 +1497,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114320,,,,13704.0,MSII,Municipal,Primario
 114321,,,,10772.0,MSII,Municipal,Primario
 114322,,,,24961.0,MSII,Municipal,Primario
-114323,,,,6512.0,MSII,Delegados ,Primario
+114323,,,,6512.0,MSII,Delegado,Primario
 114324,,,,14395.0,MSII,Municipal,Primario
 114325,,,,11945.0,MSII,Municipal,Primario
 114326,,,,9527.0,MSII,Municipal,Primario
-114327,,,,4335.0,MSII,Delegados ,Primario
+114327,,,,4335.0,MSII,Delegado,Primario
 114328,,,,7854.0,MSII,Municipal,Primario
-114329,,,,7208.0,MSII,Delegados ,Primario
+114329,,,,7208.0,MSII,Delegado,Primario
 114330,,,,8175.0,MSII,Municipal,Primario
 114331,,,,14833.0,MSII,Municipal,Primario
 114332,,,,12032.0,MSII,Municipal,Primario
@@ -1521,8 +1521,8 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114714,,,,1641.0,MSII,Municipal,Primario
 114796,,,,107.0,MSII,Municipal,Primario
 200037,,,,47.0,MSII,Municipal,Primario
-200080,,,,27.0,MSII,Municipal,No Aplica
-200188,,,,14.0,MSII,Municipal,No Aplica
+200080,,,,27.0,MSII,Municipal,Primario
+200188,,,,14.0,MSII,Municipal,Primario
 200210,,,,1925.0,MSII,Municipal,Primario
 200236,,,,2.0,MSII,Municipal,Primario
 200265,,,,48.0,MSII,Municipal,Primario
@@ -1548,11 +1548,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 201112,,,,9547.0,MSII,Municipal,Primario
 201129,,,,359.0,MSII,Municipal,Primario
 201462,,,,6261.0,MSII,Municipal,Primario
-311001,,,,5683.0,MSII,,
+201674,,,,5683.0,MSII,Municipal,Primario
 5013502,,,,2.0,MSII,,
-109104,2026.0,1.0,22.0,,MSIIIa,Servicio de Salud,Pendiente
-109104,2026.0,2.0,25.0,,MSIIIa,Servicio de Salud,Pendiente
-109104,2026.0,3.0,42.0,,MSIIIa,Servicio de Salud,Pendiente
+109104,2026.0,1.0,22.0,,MSIIIa,Servicio de Salud,
+109104,2026.0,2.0,25.0,,MSIIIa,Servicio de Salud,
+109104,2026.0,3.0,42.0,,MSIIIa,Servicio de Salud,
 109300,2026.0,1.0,411.0,9567.0,MSIIIa,Municipal,Primario
 109300,2026.0,2.0,302.0,9567.0,MSIIIa,Municipal,Primario
 109300,2026.0,3.0,425.0,9567.0,MSIIIa,Municipal,Primario
@@ -1618,7 +1618,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109390,2026.0,1.0,107.0,2545.0,MSIIIa,Otra Institución,Primario
 109390,2026.0,2.0,88.0,2545.0,MSIIIa,Otra Institución,Primario
 109390,2026.0,3.0,146.0,2545.0,MSIIIa,Otra Institución,Primario
-109407,,,,1443.0,MSIIIa,,
+109407,,,,1443.0,MSIIIa,Municipal,Primario
 109410,2026.0,1.0,1.0,44.0,MSIIIa,Municipal,Primario
 109410,2026.0,2.0,4.0,44.0,MSIIIa,Municipal,Primario
 109410,2026.0,3.0,6.0,44.0,MSIIIa,Municipal,Primario
@@ -1656,9 +1656,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109718,2026.0,1.0,56.0,738.0,MSIIIa,Municipal,Primario
 109718,2026.0,2.0,68.0,738.0,MSIIIa,Municipal,Primario
 109718,2026.0,3.0,77.0,738.0,MSIIIa,Municipal,Primario
-110160,2026.0,1.0,69.0,942.0,MSIIIa,Servicio de Salud,Pendiente
-110160,2026.0,2.0,60.0,942.0,MSIIIa,Servicio de Salud,Pendiente
-110160,2026.0,3.0,68.0,942.0,MSIIIa,Servicio de Salud,Pendiente
+110160,2026.0,1.0,69.0,942.0,MSIIIa,Servicio de Salud,
+110160,2026.0,2.0,60.0,942.0,MSIIIa,Servicio de Salud,
+110160,2026.0,3.0,68.0,942.0,MSIIIa,Servicio de Salud,
 110308,2026.0,1.0,146.0,3922.0,MSIIIa,Municipal,Primario
 110308,2026.0,2.0,119.0,3922.0,MSIIIa,Municipal,Primario
 110308,2026.0,3.0,114.0,3922.0,MSIIIa,Municipal,Primario
@@ -1810,7 +1810,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110510,2026.0,1.0,5.0,9.0,MSIIIa,Municipal,Primario
 110510,2026.0,2.0,2.0,9.0,MSIIIa,Municipal,Primario
 110510,2026.0,3.0,4.0,9.0,MSIIIa,Municipal,Primario
-110515,,,,2.0,MSIIIa,,
+110515,,,,2.0,MSIIIa,Municipal,Primario
 110720,2026.0,1.0,68.0,2.0,MSIIIa,Municipal,Primario
 110720,2026.0,2.0,53.0,2.0,MSIIIa,Municipal,Primario
 110720,2026.0,3.0,30.0,2.0,MSIIIa,Municipal,Primario
@@ -1913,15 +1913,15 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111400,2026.0,1.0,8.0,31.0,MSIIIa,Servicio de Salud,Primario
 111400,2026.0,2.0,5.0,31.0,MSIIIa,Servicio de Salud,Primario
 111400,2026.0,3.0,3.0,31.0,MSIIIa,Servicio de Salud,Primario
-111704,2026.0,2.0,5.0,135.0,MSIIIa,Municipal,Primario
-111704,2026.0,3.0,4.0,135.0,MSIIIa,Municipal,Primario
-111780,2026.0,1.0,13.0,101.0,MSIIIa,Municipal,Primario
-111780,2026.0,2.0,12.0,101.0,MSIIIa,Municipal,Primario
-111780,2026.0,3.0,7.0,101.0,MSIIIa,Municipal,Primario
+111704,2026.0,2.0,5.0,135.0,MSIIIa,Servicio de Salud,Primario
+111704,2026.0,3.0,4.0,135.0,MSIIIa,Servicio de Salud,Primario
+111780,2026.0,1.0,13.0,101.0,MSIIIa,Servicio de Salud,Primario
+111780,2026.0,2.0,12.0,101.0,MSIIIa,Servicio de Salud,Primario
+111780,2026.0,3.0,7.0,101.0,MSIIIa,Servicio de Salud,Primario
 111781,2026.0,1.0,17.0,126.0,MSIIIa,Servicio de Salud,Primario
 111781,2026.0,2.0,15.0,126.0,MSIIIa,Servicio de Salud,Primario
 111781,2026.0,3.0,22.0,126.0,MSIIIa,Servicio de Salud,Primario
-111782,,,,56.0,MSIIIa,,
+111782,,,,56.0,MSIIIa,Municipal,Primario
 111783,2026.0,1.0,23.0,324.0,MSIIIa,Municipal,Primario
 111783,2026.0,2.0,17.0,324.0,MSIIIa,Municipal,Primario
 111783,2026.0,3.0,14.0,324.0,MSIIIa,Municipal,Primario
@@ -1981,9 +1981,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112322,2026.0,1.0,117.0,2454.0,MSIIIa,Municipal,Primario
 112322,2026.0,2.0,139.0,2454.0,MSIIIa,Municipal,Primario
 112322,2026.0,3.0,115.0,2454.0,MSIIIa,Municipal,Primario
-112323,2026.0,1.0,465.0,9.0,MSIIIa,Municipal,No Aplica
-112323,2026.0,2.0,414.0,9.0,MSIIIa,Municipal,No Aplica
-112323,2026.0,3.0,481.0,9.0,MSIIIa,Municipal,No Aplica
+112323,2026.0,1.0,465.0,9.0,MSIIIa,Municipal,Primario
+112323,2026.0,2.0,414.0,9.0,MSIIIa,Municipal,Primario
+112323,2026.0,3.0,481.0,9.0,MSIIIa,Municipal,Primario
 112407,,,,4.0,MSIIIa,Municipal,Primario
 112707,2026.0,2.0,5.0,286.0,MSIIIa,Municipal,Primario
 112716,2026.0,1.0,37.0,21.0,MSIIIa,Municipal,Primario
@@ -1993,7 +1993,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112717,2026.0,2.0,12.0,257.0,MSIIIa,Municipal,Primario
 112717,2026.0,3.0,9.0,257.0,MSIIIa,Municipal,Primario
 112799,2026.0,2.0,5.0,,MSIIIa,Municipal,Primario
-113181,,,,2.0,MSIIIa,,
+113181,,,,2.0,MSIIIa,Servicio de Salud,Secundario
 113300,2026.0,1.0,185.0,6063.0,MSIIIa,Municipal,Primario
 113300,2026.0,2.0,168.0,6063.0,MSIIIa,Municipal,Primario
 113300,2026.0,3.0,140.0,6063.0,MSIIIa,Municipal,Primario
@@ -2161,7 +2161,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114102,2026.0,1.0,88.0,75.0,MSIIIa,Servicio de Salud,Terciario
 114102,2026.0,2.0,77.0,75.0,MSIIIa,Servicio de Salud,Terciario
 114102,2026.0,3.0,74.0,75.0,MSIIIa,Servicio de Salud,Terciario
-114150,,,,1.0,MSIIIa,,
+114150,,,,1.0,MSIIIa,Servicio de Salud,Secundario
 114301,2026.0,1.0,453.0,7602.0,MSIIIa,Municipal,Primario
 114301,2026.0,2.0,232.0,7602.0,MSIIIa,Municipal,Primario
 114301,2026.0,3.0,352.0,7602.0,MSIIIa,Municipal,Primario
@@ -2227,9 +2227,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114322,2026.0,1.0,379.0,7084.0,MSIIIa,Municipal,Primario
 114322,2026.0,2.0,288.0,7084.0,MSIIIa,Municipal,Primario
 114322,2026.0,3.0,531.0,7084.0,MSIIIa,Municipal,Primario
-114323,2026.0,1.0,118.0,1816.0,MSIIIa,Delegados ,Primario
-114323,2026.0,2.0,62.0,1816.0,MSIIIa,Delegados ,Primario
-114323,2026.0,3.0,106.0,1816.0,MSIIIa,Delegados ,Primario
+114323,2026.0,1.0,118.0,1816.0,MSIIIa,Delegado,Primario
+114323,2026.0,2.0,62.0,1816.0,MSIIIa,Delegado,Primario
+114323,2026.0,3.0,106.0,1816.0,MSIIIa,Delegado,Primario
 114324,2026.0,1.0,158.0,4058.0,MSIIIa,Municipal,Primario
 114324,2026.0,2.0,63.0,4058.0,MSIIIa,Municipal,Primario
 114324,2026.0,3.0,155.0,4058.0,MSIIIa,Municipal,Primario
@@ -2239,15 +2239,15 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114326,2026.0,1.0,266.0,4466.0,MSIIIa,Municipal,Primario
 114326,2026.0,2.0,220.0,4466.0,MSIIIa,Municipal,Primario
 114326,2026.0,3.0,269.0,4466.0,MSIIIa,Municipal,Primario
-114327,2026.0,1.0,136.0,2011.0,MSIIIa,Delegados ,Primario
-114327,2026.0,2.0,127.0,2011.0,MSIIIa,Delegados ,Primario
-114327,2026.0,3.0,130.0,2011.0,MSIIIa,Delegados ,Primario
+114327,2026.0,1.0,136.0,2011.0,MSIIIa,Delegado,Primario
+114327,2026.0,2.0,127.0,2011.0,MSIIIa,Delegado,Primario
+114327,2026.0,3.0,130.0,2011.0,MSIIIa,Delegado,Primario
 114328,2026.0,1.0,157.0,2552.0,MSIIIa,Municipal,Primario
 114328,2026.0,2.0,92.0,2552.0,MSIIIa,Municipal,Primario
 114328,2026.0,3.0,205.0,2552.0,MSIIIa,Municipal,Primario
-114329,2026.0,1.0,142.0,1907.0,MSIIIa,Delegados ,Primario
-114329,2026.0,2.0,89.0,1907.0,MSIIIa,Delegados ,Primario
-114329,2026.0,3.0,162.0,1907.0,MSIIIa,Delegados ,Primario
+114329,2026.0,1.0,142.0,1907.0,MSIIIa,Delegado,Primario
+114329,2026.0,2.0,89.0,1907.0,MSIIIa,Delegado,Primario
+114329,2026.0,3.0,162.0,1907.0,MSIIIa,Delegado,Primario
 114330,2026.0,1.0,194.0,3056.0,MSIIIa,Municipal,Primario
 114330,2026.0,2.0,162.0,3056.0,MSIIIa,Municipal,Primario
 114330,2026.0,3.0,171.0,3056.0,MSIIIa,Municipal,Primario
@@ -2286,9 +2286,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 200037,2026.0,1.0,31.0,3.0,MSIIIa,Municipal,Primario
 200037,2026.0,2.0,19.0,3.0,MSIIIa,Municipal,Primario
 200037,2026.0,3.0,20.0,3.0,MSIIIa,Municipal,Primario
-200080,2026.0,1.0,78.0,4.0,MSIIIa,Municipal,No Aplica
-200080,2026.0,2.0,90.0,4.0,MSIIIa,Municipal,No Aplica
-200080,2026.0,3.0,150.0,4.0,MSIIIa,Municipal,No Aplica
+200080,2026.0,1.0,78.0,4.0,MSIIIa,Municipal,Primario
+200080,2026.0,2.0,90.0,4.0,MSIIIa,Municipal,Primario
+200080,2026.0,3.0,150.0,4.0,MSIIIa,Municipal,Primario
 200189,,,,1.0,MSIIIa,Servicio de Salud,Primario
 200210,2026.0,1.0,38.0,481.0,MSIIIa,Municipal,Primario
 200210,2026.0,2.0,26.0,481.0,MSIIIa,Municipal,Primario
@@ -2374,17 +2374,17 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 202041,2026.0,1.0,18.0,,MSIIIa,Municipal,Primario
 202041,2026.0,2.0,17.0,,MSIIIa,Municipal,Primario
 202041,2026.0,3.0,11.0,,MSIIIa,Municipal,Primario
-202042,2026.0,1.0,8.0,,MSIIIa,Municipal,Secundario
-202042,2026.0,3.0,17.0,,MSIIIa,Municipal,Secundario
+202042,2026.0,1.0,8.0,,MSIIIa,Municipal,Primario
+202042,2026.0,3.0,17.0,,MSIIIa,Municipal,Primario
 202205,2026.0,1.0,173.0,,MSIIIa,Municipal,Primario
 202205,2026.0,2.0,118.0,,MSIIIa,Municipal,Primario
 202205,2026.0,3.0,117.0,,MSIIIa,Municipal,Primario
 202233,2026.0,2.0,103.0,,MSIIIa,Municipal,Primario
 202233,2026.0,3.0,109.0,,MSIIIa,Municipal,Primario
-311001,,,,2076.0,MSIIIa,,
-109104,2026.0,1.0,2.0,,MSIIIb,Servicio de Salud,Pendiente
-109104,2026.0,2.0,1.0,,MSIIIb,Servicio de Salud,Pendiente
-109104,2026.0,3.0,4.0,,MSIIIb,Servicio de Salud,Pendiente
+201674,,,,2076.0,MSIIIa,Municipal,Primario
+109104,2026.0,1.0,2.0,,MSIIIb,Servicio de Salud,
+109104,2026.0,2.0,1.0,,MSIIIb,Servicio de Salud,
+109104,2026.0,3.0,4.0,,MSIIIb,Servicio de Salud,
 109300,2026.0,1.0,18.0,1106.0,MSIIIb,Municipal,Primario
 109300,2026.0,2.0,7.0,1106.0,MSIIIb,Municipal,Primario
 109300,2026.0,3.0,26.0,1106.0,MSIIIb,Municipal,Primario
@@ -2449,7 +2449,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109390,2026.0,1.0,8.0,324.0,MSIIIb,Otra Institución,Primario
 109390,2026.0,2.0,4.0,324.0,MSIIIb,Otra Institución,Primario
 109390,2026.0,3.0,5.0,324.0,MSIIIb,Otra Institución,Primario
-109407,,,,173.0,MSIIIb,,
+109407,,,,173.0,MSIIIb,Municipal,Primario
 109410,2026.0,1.0,2.0,6.0,MSIIIb,Municipal,Primario
 109410,2026.0,2.0,0.0,6.0,MSIIIb,Municipal,Primario
 109410,2026.0,3.0,1.0,6.0,MSIIIb,Municipal,Primario
@@ -2485,9 +2485,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109718,2026.0,1.0,6.0,104.0,MSIIIb,Municipal,Primario
 109718,2026.0,2.0,1.0,104.0,MSIIIb,Municipal,Primario
 109718,2026.0,3.0,4.0,104.0,MSIIIb,Municipal,Primario
-110160,2026.0,1.0,4.0,88.0,MSIIIb,Servicio de Salud,Pendiente
-110160,2026.0,2.0,6.0,88.0,MSIIIb,Servicio de Salud,Pendiente
-110160,2026.0,3.0,5.0,88.0,MSIIIb,Servicio de Salud,Pendiente
+110160,2026.0,1.0,4.0,88.0,MSIIIb,Servicio de Salud,
+110160,2026.0,2.0,6.0,88.0,MSIIIb,Servicio de Salud,
+110160,2026.0,3.0,5.0,88.0,MSIIIb,Servicio de Salud,
 110308,2026.0,1.0,11.0,437.0,MSIIIb,Municipal,Primario
 110308,2026.0,2.0,11.0,437.0,MSIIIb,Municipal,Primario
 110308,2026.0,3.0,7.0,437.0,MSIIIb,Municipal,Primario
@@ -2638,7 +2638,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110510,2026.0,1.0,0.0,1.0,MSIIIb,Municipal,Primario
 110510,2026.0,2.0,0.0,1.0,MSIIIb,Municipal,Primario
 110510,2026.0,3.0,0.0,1.0,MSIIIb,Municipal,Primario
-110515,,,,1.0,MSIIIb,,
+110515,,,,1.0,MSIIIb,Municipal,Primario
 110720,2026.0,1.0,7.0,,MSIIIb,Municipal,Primario
 110720,2026.0,2.0,2.0,,MSIIIb,Municipal,Primario
 110720,2026.0,3.0,1.0,,MSIIIb,Municipal,Primario
@@ -2740,16 +2740,16 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111400,2026.0,1.0,0.0,7.0,MSIIIb,Servicio de Salud,Primario
 111400,2026.0,2.0,0.0,7.0,MSIIIb,Servicio de Salud,Primario
 111400,2026.0,3.0,0.0,7.0,MSIIIb,Servicio de Salud,Primario
-111704,2026.0,1.0,0.0,18.0,MSIIIb,Municipal,Primario
-111704,2026.0,2.0,0.0,18.0,MSIIIb,Municipal,Primario
-111704,2026.0,3.0,0.0,18.0,MSIIIb,Municipal,Primario
-111780,2026.0,1.0,1.0,13.0,MSIIIb,Municipal,Primario
-111780,2026.0,2.0,0.0,13.0,MSIIIb,Municipal,Primario
-111780,2026.0,3.0,1.0,13.0,MSIIIb,Municipal,Primario
+111704,2026.0,1.0,0.0,18.0,MSIIIb,Servicio de Salud,Primario
+111704,2026.0,2.0,0.0,18.0,MSIIIb,Servicio de Salud,Primario
+111704,2026.0,3.0,0.0,18.0,MSIIIb,Servicio de Salud,Primario
+111780,2026.0,1.0,1.0,13.0,MSIIIb,Servicio de Salud,Primario
+111780,2026.0,2.0,0.0,13.0,MSIIIb,Servicio de Salud,Primario
+111780,2026.0,3.0,1.0,13.0,MSIIIb,Servicio de Salud,Primario
 111781,2026.0,1.0,0.0,14.0,MSIIIb,Servicio de Salud,Primario
 111781,2026.0,2.0,0.0,14.0,MSIIIb,Servicio de Salud,Primario
 111781,2026.0,3.0,1.0,14.0,MSIIIb,Servicio de Salud,Primario
-111782,,,,8.0,MSIIIb,,
+111782,,,,8.0,MSIIIb,Municipal,Primario
 111783,2026.0,1.0,0.0,45.0,MSIIIb,Municipal,Primario
 111783,2026.0,2.0,1.0,45.0,MSIIIb,Municipal,Primario
 111783,2026.0,3.0,1.0,45.0,MSIIIb,Municipal,Primario
@@ -2808,9 +2808,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112322,2026.0,1.0,16.0,277.0,MSIIIb,Municipal,Primario
 112322,2026.0,2.0,7.0,277.0,MSIIIb,Municipal,Primario
 112322,2026.0,3.0,3.0,277.0,MSIIIb,Municipal,Primario
-112323,2026.0,1.0,26.0,3.0,MSIIIb,Municipal,No Aplica
-112323,2026.0,2.0,27.0,3.0,MSIIIb,Municipal,No Aplica
-112323,2026.0,3.0,31.0,3.0,MSIIIb,Municipal,No Aplica
+112323,2026.0,1.0,26.0,3.0,MSIIIb,Municipal,Primario
+112323,2026.0,2.0,27.0,3.0,MSIIIb,Municipal,Primario
+112323,2026.0,3.0,31.0,3.0,MSIIIb,Municipal,Primario
 112707,,,,3.0,MSIIIb,Municipal,Primario
 112716,2026.0,1.0,5.0,1.0,MSIIIb,Municipal,Primario
 112716,2026.0,2.0,2.0,1.0,MSIIIb,Municipal,Primario
@@ -3052,9 +3052,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114322,2026.0,1.0,21.0,845.0,MSIIIb,Municipal,Primario
 114322,2026.0,2.0,29.0,845.0,MSIIIb,Municipal,Primario
 114322,2026.0,3.0,31.0,845.0,MSIIIb,Municipal,Primario
-114323,2026.0,1.0,11.0,215.0,MSIIIb,Delegados ,Primario
-114323,2026.0,2.0,6.0,215.0,MSIIIb,Delegados ,Primario
-114323,2026.0,3.0,9.0,215.0,MSIIIb,Delegados ,Primario
+114323,2026.0,1.0,11.0,215.0,MSIIIb,Delegado,Primario
+114323,2026.0,2.0,6.0,215.0,MSIIIb,Delegado,Primario
+114323,2026.0,3.0,9.0,215.0,MSIIIb,Delegado,Primario
 114324,2026.0,1.0,13.0,467.0,MSIIIb,Municipal,Primario
 114324,2026.0,2.0,9.0,467.0,MSIIIb,Municipal,Primario
 114324,2026.0,3.0,13.0,467.0,MSIIIb,Municipal,Primario
@@ -3063,15 +3063,15 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114326,2026.0,1.0,0.0,506.0,MSIIIb,Municipal,Primario
 114326,2026.0,2.0,4.0,506.0,MSIIIb,Municipal,Primario
 114326,2026.0,3.0,12.0,506.0,MSIIIb,Municipal,Primario
-114327,2026.0,1.0,3.0,234.0,MSIIIb,Delegados ,Primario
-114327,2026.0,2.0,10.0,234.0,MSIIIb,Delegados ,Primario
-114327,2026.0,3.0,13.0,234.0,MSIIIb,Delegados ,Primario
+114327,2026.0,1.0,3.0,234.0,MSIIIb,Delegado,Primario
+114327,2026.0,2.0,10.0,234.0,MSIIIb,Delegado,Primario
+114327,2026.0,3.0,13.0,234.0,MSIIIb,Delegado,Primario
 114328,2026.0,1.0,10.0,295.0,MSIIIb,Municipal,Primario
 114328,2026.0,2.0,1.0,295.0,MSIIIb,Municipal,Primario
 114328,2026.0,3.0,10.0,295.0,MSIIIb,Municipal,Primario
-114329,2026.0,1.0,15.0,215.0,MSIIIb,Delegados ,Primario
-114329,2026.0,2.0,3.0,215.0,MSIIIb,Delegados ,Primario
-114329,2026.0,3.0,11.0,215.0,MSIIIb,Delegados ,Primario
+114329,2026.0,1.0,15.0,215.0,MSIIIb,Delegado,Primario
+114329,2026.0,2.0,3.0,215.0,MSIIIb,Delegado,Primario
+114329,2026.0,3.0,11.0,215.0,MSIIIb,Delegado,Primario
 114330,2026.0,1.0,5.0,313.0,MSIIIb,Municipal,Primario
 114330,2026.0,2.0,9.0,313.0,MSIIIb,Municipal,Primario
 114330,2026.0,3.0,3.0,313.0,MSIIIb,Municipal,Primario
@@ -3108,9 +3108,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 200037,2026.0,1.0,0.0,,MSIIIb,Municipal,Primario
 200037,2026.0,2.0,0.0,,MSIIIb,Municipal,Primario
 200037,2026.0,3.0,1.0,,MSIIIb,Municipal,Primario
-200080,2026.0,1.0,5.0,1.0,MSIIIb,Municipal,No Aplica
-200080,2026.0,2.0,2.0,1.0,MSIIIb,Municipal,No Aplica
-200080,2026.0,3.0,20.0,1.0,MSIIIb,Municipal,No Aplica
+200080,2026.0,1.0,5.0,1.0,MSIIIb,Municipal,Primario
+200080,2026.0,2.0,2.0,1.0,MSIIIb,Municipal,Primario
+200080,2026.0,3.0,20.0,1.0,MSIIIb,Municipal,Primario
 200210,2026.0,1.0,1.0,39.0,MSIIIb,Municipal,Primario
 200210,2026.0,2.0,1.0,39.0,MSIIIb,Municipal,Primario
 200210,2026.0,3.0,4.0,39.0,MSIIIb,Municipal,Primario
@@ -3191,14 +3191,14 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 202041,2026.0,1.0,4.0,,MSIIIb,Municipal,Primario
 202041,2026.0,2.0,1.0,,MSIIIb,Municipal,Primario
 202041,2026.0,3.0,2.0,,MSIIIb,Municipal,Primario
-202042,2026.0,1.0,0.0,,MSIIIb,Municipal,Secundario
-202042,2026.0,3.0,0.0,,MSIIIb,Municipal,Secundario
+202042,2026.0,1.0,0.0,,MSIIIb,Municipal,Primario
+202042,2026.0,3.0,0.0,,MSIIIb,Municipal,Primario
 202205,2026.0,1.0,15.0,,MSIIIb,Municipal,Primario
 202205,2026.0,2.0,12.0,,MSIIIb,Municipal,Primario
 202205,2026.0,3.0,10.0,,MSIIIb,Municipal,Primario
 202233,2026.0,2.0,5.0,,MSIIIb,Municipal,Primario
 202233,2026.0,3.0,6.0,,MSIIIb,Municipal,Primario
-311001,,,,215.0,MSIIIb,,
+201674,,,,215.0,MSIIIb,Municipal,Primario
 109300,,,,6871.581,MSIVa,Municipal,Primario
 109301,,,,4555.8,MSIVa,Municipal,Primario
 109302,,,,3419.3579999999997,MSIVa,Municipal,Primario
@@ -3221,7 +3221,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109323,,,,1995.672,MSIVa,Municipal,Primario
 109324,,,,4649.282999999999,MSIVa,Municipal,Primario
 109390,,,,3298.041,MSIVa,Otra Institución,Primario
-109407,,,,1102.308,MSIVa,,
+109407,,,,1102.308,MSIVa,Municipal,Primario
 109410,,,,75.17999999999999,MSIVa,Municipal,Primario
 109412,,,,79.881,MSIVa,Municipal,Primario
 109413,,,,64.911,MSIVa,Municipal,Primario
@@ -3238,7 +3238,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109715,,,,330.174,MSIVa,Municipal,Primario
 109716,,,,93.219,MSIVa,Municipal,Primario
 109718,,,,944.67,MSIVa,Municipal,Primario
-110160,,,,2482.854,MSIVa,Servicio de Salud,Pendiente
+110160,,,,2482.854,MSIVa,Servicio de Salud,
 110300,,,,0.429,MSIVa,Servicio de Salud,Secundario
 110308,,,,4765.686,MSIVa,Municipal,Primario
 110310,,,,3034.833,MSIVa,Servicio de Salud,Primario
@@ -3293,7 +3293,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110503,,,,118.773,MSIVa,Municipal,Primario
 110505,,,,3.75,MSIVa,Municipal,Primario
 110510,,,,9.321,MSIVa,Municipal,Primario
-110515,,,,1.107,MSIVa,,
+110515,,,,1.107,MSIVa,Municipal,Primario
 110601,,,,0.183,MSIVa,Privado,Secundario
 110627,,,,0.018,MSIVa,Municipal,Secundario
 110720,,,,2.9699999999999998,MSIVa,Municipal,Primario
@@ -3331,10 +3331,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111382,,,,5926.728,MSIVa,Municipal,Primario
 111383,,,,3749.991,MSIVa,Municipal,Primario
 111400,,,,49.778999999999996,MSIVa,Servicio de Salud,Primario
-111704,,,,236.409,MSIVa,Municipal,Primario
-111780,,,,74.535,MSIVa,Municipal,Primario
+111704,,,,236.409,MSIVa,Servicio de Salud,Primario
+111780,,,,74.535,MSIVa,Servicio de Salud,Primario
 111781,,,,52.452,MSIVa,Servicio de Salud,Primario
-111782,,,,81.207,MSIVa,,
+111782,,,,81.207,MSIVa,Municipal,Primario
 111783,,,,449.235,MSIVa,Municipal,Primario
 111784,,,,212.061,MSIVa,Municipal,Primario
 112300,,,,0.861,MSIVa,Servicio de Salud,Secundario
@@ -3358,13 +3358,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112320,,,,2067.198,MSIVa,Municipal,Primario
 112321,,,,2477.322,MSIVa,Municipal,Primario
 112322,,,,2570.697,MSIVa,Municipal,Primario
-112323,,,,4.953,MSIVa,Municipal,No Aplica
+112323,,,,4.953,MSIVa,Municipal,Primario
 112407,,,,1.8359999999999999,MSIVa,Municipal,Primario
 112707,,,,175.308,MSIVa,Municipal,Primario
 112716,,,,30.555,MSIVa,Municipal,Primario
 112717,,,,2153.451,MSIVa,Municipal,Primario
 112799,,,,1.233,MSIVa,Municipal,Primario
-113181,,,,2.187,MSIVa,,
+113181,,,,2.187,MSIVa,Servicio de Salud,Secundario
 113300,,,,6744.315,MSIVa,Municipal,Primario
 113301,,,,2453.523,MSIVa,Municipal,Primario
 113302,,,,4897.107,MSIVa,Municipal,Primario
@@ -3424,7 +3424,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113790,,,,596.4209999999999,MSIVa,Municipal,Primario
 114010,,,,0.126,MSIVa,Servicio de Salud,No Aplica
 114102,,,,857.364,MSIVa,Servicio de Salud,Terciario
-114150,,,,1.398,MSIVa,,
+114150,,,,1.398,MSIVa,Servicio de Salud,Secundario
 114301,,,,10457.616,MSIVa,Municipal,Primario
 114302,,,,3511.239,MSIVa,Municipal,Primario
 114303,,,,6633.816,MSIVa,Municipal,Primario
@@ -3447,13 +3447,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114320,,,,5165.736,MSIVa,Municipal,Primario
 114321,,,,3524.163,MSIVa,Municipal,Primario
 114322,,,,9561.249,MSIVa,Municipal,Primario
-114323,,,,2420.949,MSIVa,Delegados ,Primario
+114323,,,,2420.949,MSIVa,Delegado,Primario
 114324,,,,6187.308,MSIVa,Municipal,Primario
 114325,,,,4643.349,MSIVa,Municipal,Primario
 114326,,,,3021.042,MSIVa,Municipal,Primario
-114327,,,,1548.492,MSIVa,Delegados ,Primario
+114327,,,,1548.492,MSIVa,Delegado,Primario
 114328,,,,3429.24,MSIVa,Municipal,Primario
-114329,,,,2364.288,MSIVa,Delegados ,Primario
+114329,,,,2364.288,MSIVa,Delegado,Primario
 114330,,,,3075.7019999999998,MSIVa,Municipal,Primario
 114331,,,,5876.382,MSIVa,Municipal,Primario
 114332,,,,4215.573,MSIVa,Municipal,Primario
@@ -3471,9 +3471,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114714,,,,673.548,MSIVa,Municipal,Primario
 114796,,,,36.849,MSIVa,Municipal,Primario
 200037,,,,8.883,MSIVa,Municipal,Primario
-200080,,,,9.831,MSIVa,Municipal,No Aplica
+200080,,,,9.831,MSIVa,Municipal,Primario
 200137,,,,0.366,MSIVa,Municipal,Primario
-200188,,,,4.335,MSIVa,Municipal,No Aplica
+200188,,,,4.335,MSIVa,Municipal,Primario
 200210,,,,896.9879999999999,MSIVa,Municipal,Primario
 200236,,,,0.189,MSIVa,Municipal,Primario
 200265,,,,20.724,MSIVa,Municipal,Primario
@@ -3499,7 +3499,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 201112,,,,3609.819,MSIVa,Municipal,Primario
 201129,,,,115.97099999999999,MSIVa,Municipal,Primario
 201462,,,,1866.5159999999998,MSIVa,Municipal,Primario
-311001,,,,2095.056,MSIVa,,
+201674,,,,2095.056,MSIVa,Municipal,Primario
 5013502,,,,0.366,MSIVa,,
 109300,,,,15269.106,MSV,Municipal,Primario
 109301,,,,10204.352,MSV,Municipal,Primario
@@ -3523,7 +3523,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109323,,,,4435.477,MSV,Municipal,Primario
 109324,,,,10288.693,MSV,Municipal,Primario
 109390,,,,7503.372,MSV,Otra Institución,Primario
-109407,,,,2473.254,MSV,,
+109407,,,,2473.254,MSV,Municipal,Primario
 109410,,,,173.765,MSV,Municipal,Primario
 109412,,,,180.29,MSV,Municipal,Primario
 109413,,,,145.684,MSV,Municipal,Primario
@@ -3540,7 +3540,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109715,,,,727.169,MSV,Municipal,Primario
 109716,,,,202.421,MSV,Municipal,Primario
 109718,,,,2132.57,MSV,Municipal,Primario
-110160,,,,5628.599,MSV,Servicio de Salud,Pendiente
+110160,,,,5628.599,MSV,Servicio de Salud,
 110300,,,,1.008,MSV,Servicio de Salud,Secundario
 110308,,,,10797.34,MSV,Municipal,Primario
 110310,,,,6823.431,MSV,Servicio de Salud,Primario
@@ -3595,7 +3595,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110503,,,,246.765,MSV,Municipal,Primario
 110505,,,,8.67,MSV,Municipal,Primario
 110510,,,,20.96,MSV,Municipal,Primario
-110515,,,,2.51,MSV,,
+110515,,,,2.51,MSV,Municipal,Primario
 110601,,,,0.451,MSV,Privado,Secundario
 110627,,,,0.007,MSV,Municipal,Secundario
 110720,,,,6.417,MSV,Municipal,Primario
@@ -3633,10 +3633,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111382,,,,13566.571,MSV,Municipal,Primario
 111383,,,,8542.666,MSV,Municipal,Primario
 111400,,,,117.112,MSV,Servicio de Salud,Primario
-111704,,,,554.244,MSV,Municipal,Primario
-111780,,,,168.779,MSV,Municipal,Primario
+111704,,,,554.244,MSV,Servicio de Salud,Primario
+111780,,,,168.779,MSV,Servicio de Salud,Primario
 111781,,,,115.55199999999999,MSV,Servicio de Salud,Primario
-111782,,,,184.015,MSV,,
+111782,,,,184.015,MSV,Municipal,Primario
 111783,,,,1042.921,MSV,Municipal,Primario
 111784,,,,487.2,MSV,Municipal,Primario
 112300,,,,1.665,MSV,Servicio de Salud,Secundario
@@ -3660,13 +3660,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112320,,,,4648.86,MSV,Municipal,Primario
 112321,,,,5562.482,MSV,Municipal,Primario
 112322,,,,5770.896,MSV,Municipal,Primario
-112323,,,,10.374,MSV,Municipal,No Aplica
+112323,,,,10.374,MSV,Municipal,Primario
 112407,,,,4.096,MSV,Municipal,Primario
 112707,,,,399.209,MSV,Municipal,Primario
 112716,,,,68.508,MSV,Municipal,Primario
 112717,,,,5029.661,MSV,Municipal,Primario
 112799,,,,2.722,MSV,Municipal,Primario
-113181,,,,4.640000000000001,MSV,,
+113181,,,,4.640000000000001,MSV,Servicio de Salud,Secundario
 113300,,,,15199.356,MSV,Municipal,Primario
 113301,,,,5536.507,MSV,Municipal,Primario
 113302,,,,10995.71,MSV,Municipal,Primario
@@ -3726,7 +3726,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113790,,,,1316.673,MSV,Municipal,Primario
 114010,,,,0.212,MSV,Servicio de Salud,No Aplica
 114102,,,,1956.832,MSV,Servicio de Salud,Terciario
-114150,,,,2.878,MSV,,
+114150,,,,2.878,MSV,Servicio de Salud,Secundario
 114301,,,,23742.443,MSV,Municipal,Primario
 114302,,,,7945.351,MSV,Municipal,Primario
 114303,,,,15109.806,MSV,Municipal,Primario
@@ -3749,13 +3749,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114320,,,,11629.506,MSV,Municipal,Primario
 114321,,,,7836.054,MSV,Municipal,Primario
 114322,,,,21726.891,MSV,Municipal,Primario
-114323,,,,5473.945,MSV,Delegados ,Primario
+114323,,,,5473.945,MSV,Delegado,Primario
 114324,,,,14119.331,MSV,Municipal,Primario
 114325,,,,10425.579,MSV,Municipal,Primario
 114326,,,,6666.055,MSV,Municipal,Primario
-114327,,,,3411.388,MSV,Delegados ,Primario
+114327,,,,3411.388,MSV,Delegado,Primario
 114328,,,,7787.423,MSV,Municipal,Primario
-114329,,,,5305.929,MSV,Delegados ,Primario
+114329,,,,5305.929,MSV,Delegado,Primario
 114330,,,,6895.861,MSV,Municipal,Primario
 114331,,,,13322.595,MSV,Municipal,Primario
 114332,,,,9519.747,MSV,Municipal,Primario
@@ -3773,9 +3773,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114714,,,,1539.321,MSV,Municipal,Primario
 114796,,,,81.969,MSV,Municipal,Primario
 200037,,,,18.489,MSV,Municipal,Primario
-200080,,,,22.362,MSV,Municipal,No Aplica
+200080,,,,22.362,MSV,Municipal,Primario
 200137,,,,0.902,MSV,Municipal,Primario
-200188,,,,9.506,MSV,Municipal,No Aplica
+200188,,,,9.506,MSV,Municipal,Primario
 200210,,,,2064.107,MSV,Municipal,Primario
 200236,,,,0.318,MSV,Municipal,Primario
 200265,,,,47.842999999999996,MSV,Municipal,Primario
@@ -3801,11 +3801,11 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 201112,,,,8163.849,MSV,Municipal,Primario
 201129,,,,262.42,MSV,Municipal,Primario
 201462,,,,4123.612,MSV,Municipal,Primario
-311001,,,,4762.423,MSV,,
+201674,,,,4762.423,MSV,Municipal,Primario
 5013502,,,,0.902,MSV,,
-109104,2026,1,0.0,0.0,MSVI,Servicio de Salud,Pendiente
-109104,2026,2,1.0,4.0,MSVI,Servicio de Salud,Pendiente
-109104,2026,3,3.0,6.0,MSVI,Servicio de Salud,Pendiente
+109104,2026,1,0.0,0.0,MSVI,Servicio de Salud,
+109104,2026,2,1.0,4.0,MSVI,Servicio de Salud,
+109104,2026,3,3.0,6.0,MSVI,Servicio de Salud,
 109300,2026,1,23.0,42.0,MSVI,Municipal,Primario
 109300,2026,2,23.0,34.0,MSVI,Municipal,Primario
 109300,2026,3,26.0,41.0,MSVI,Municipal,Primario
@@ -3912,9 +3912,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109718,2026,1,0.0,0.0,MSVI,Municipal,Primario
 109718,2026,2,1.0,3.0,MSVI,Municipal,Primario
 109718,2026,3,2.0,2.0,MSVI,Municipal,Primario
-110160,2026,1,8.0,15.0,MSVI,Servicio de Salud,Pendiente
-110160,2026,2,6.0,13.0,MSVI,Servicio de Salud,Pendiente
-110160,2026,3,8.0,18.0,MSVI,Servicio de Salud,Pendiente
+110160,2026,1,8.0,15.0,MSVI,Servicio de Salud,
+110160,2026,2,6.0,13.0,MSVI,Servicio de Salud,
+110160,2026,3,8.0,18.0,MSVI,Servicio de Salud,
 110308,2026,1,6.0,12.0,MSVI,Municipal,Primario
 110308,2026,2,5.0,17.0,MSVI,Municipal,Primario
 110308,2026,3,10.0,20.0,MSVI,Municipal,Primario
@@ -4171,10 +4171,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111400,2026,1,0.0,0.0,MSVI,Servicio de Salud,Primario
 111400,2026,2,0.0,0.0,MSVI,Servicio de Salud,Primario
 111400,2026,3,1.0,2.0,MSVI,Servicio de Salud,Primario
-111704,2026,1,0.0,0.0,MSVI,Municipal,Primario
-111704,2026,2,1.0,1.0,MSVI,Municipal,Primario
-111704,2026,3,1.0,2.0,MSVI,Municipal,Primario
-111780,2026,2,,0.0,MSVI,Municipal,Primario
+111704,2026,1,0.0,0.0,MSVI,Servicio de Salud,Primario
+111704,2026,2,1.0,1.0,MSVI,Servicio de Salud,Primario
+111704,2026,3,1.0,2.0,MSVI,Servicio de Salud,Primario
+111780,2026,2,,0.0,MSVI,Servicio de Salud,Primario
 111781,2026,1,0.0,0.0,MSVI,Servicio de Salud,Primario
 111781,2026,2,1.0,1.0,MSVI,Servicio de Salud,Primario
 111781,2026,3,0.0,0.0,MSVI,Servicio de Salud,Primario
@@ -4487,9 +4487,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114322,2026,1,10.0,27.0,MSVI,Municipal,Primario
 114322,2026,2,7.0,27.0,MSVI,Municipal,Primario
 114322,2026,3,14.0,39.0,MSVI,Municipal,Primario
-114323,2026,1,2.0,8.0,MSVI,Delegados ,Primario
-114323,2026,2,6.0,11.0,MSVI,Delegados ,Primario
-114323,2026,3,3.0,6.0,MSVI,Delegados ,Primario
+114323,2026,1,2.0,8.0,MSVI,Delegado,Primario
+114323,2026,2,6.0,11.0,MSVI,Delegado,Primario
+114323,2026,3,3.0,6.0,MSVI,Delegado,Primario
 114324,2026,1,5.0,8.0,MSVI,Municipal,Primario
 114324,2026,2,6.0,8.0,MSVI,Municipal,Primario
 114324,2026,3,11.0,19.0,MSVI,Municipal,Primario
@@ -4499,15 +4499,15 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114326,2026,1,8.0,13.0,MSVI,Municipal,Primario
 114326,2026,2,8.0,17.0,MSVI,Municipal,Primario
 114326,2026,3,4.0,14.0,MSVI,Municipal,Primario
-114327,2026,1,1.0,7.0,MSVI,Delegados ,Primario
-114327,2026,2,0.0,5.0,MSVI,Delegados ,Primario
-114327,2026,3,1.0,5.0,MSVI,Delegados ,Primario
+114327,2026,1,1.0,7.0,MSVI,Delegado,Primario
+114327,2026,2,0.0,5.0,MSVI,Delegado,Primario
+114327,2026,3,1.0,5.0,MSVI,Delegado,Primario
 114328,2026,1,9.0,15.0,MSVI,Municipal,Primario
 114328,2026,2,5.0,10.0,MSVI,Municipal,Primario
 114328,2026,3,0.0,12.0,MSVI,Municipal,Primario
-114329,2026,1,1.0,7.0,MSVI,Delegados ,Primario
-114329,2026,2,3.0,6.0,MSVI,Delegados ,Primario
-114329,2026,3,3.0,11.0,MSVI,Delegados ,Primario
+114329,2026,1,1.0,7.0,MSVI,Delegado,Primario
+114329,2026,2,3.0,6.0,MSVI,Delegado,Primario
+114329,2026,3,3.0,11.0,MSVI,Delegado,Primario
 114330,2026,1,12.0,20.0,MSVI,Municipal,Primario
 114330,2026,2,9.0,16.0,MSVI,Municipal,Primario
 114330,2026,3,14.0,20.0,MSVI,Municipal,Primario
@@ -4654,7 +4654,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109323,,,,2055.139,MSVII,Municipal,Primario
 109324,,,,5124.534000000001,MSVII,Municipal,Primario
 109390,,,,2880.3320000000003,MSVII,Otra Institución,Primario
-109407,,,,1093.909,MSVII,,
+109407,,,,1093.909,MSVII,Municipal,Primario
 109410,,,,58.40200000000001,MSVII,Municipal,Primario
 109412,,,,74.908,MSVII,Municipal,Primario
 109413,,,,67.054,MSVII,Municipal,Primario
@@ -4671,7 +4671,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109715,,,,360.22200000000004,MSVII,Municipal,Primario
 109716,,,,122.117,MSVII,Municipal,Primario
 109718,,,,860.392,MSVII,Municipal,Primario
-110160,,,,2091.559,MSVII,Servicio de Salud,Pendiente
+110160,,,,2091.559,MSVII,Servicio de Salud,
 110300,,,,0.334,MSVII,Servicio de Salud,Secundario
 110308,,,,4348.43,MSVII,Municipal,Primario
 110310,,,,2815.818,MSVII,Servicio de Salud,Primario
@@ -4726,7 +4726,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110503,,,,161.161,MSVII,Municipal,Primario
 110505,,,,3.2550000000000003,MSVII,Municipal,Primario
 110510,,,,8.612,MSVII,Municipal,Primario
-110515,,,,0.9680000000000001,MSVII,,
+110515,,,,0.9680000000000001,MSVII,Municipal,Primario
 110601,,,,0.117,MSVII,Privado,Secundario
 110627,,,,0.1,MSVII,Municipal,Secundario
 110720,,,,3.0210000000000004,MSVII,Municipal,Primario
@@ -4764,10 +4764,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111382,,,,4801.309,MSVII,Municipal,Primario
 111383,,,,3187.362,MSVII,Municipal,Primario
 111400,,,,34.202000000000005,MSVII,Servicio de Salud,Primario
-111704,,,,165.88400000000001,MSVII,Municipal,Primario
-111780,,,,72.887,MSVII,Municipal,Primario
+111704,,,,165.88400000000001,MSVII,Servicio de Salud,Primario
+111780,,,,72.887,MSVII,Servicio de Salud,Primario
 111781,,,,60.57000000000001,MSVII,Servicio de Salud,Primario
-111782,,,,68.485,MSVII,,
+111782,,,,68.485,MSVII,Municipal,Primario
 111783,,,,306.098,MSVII,Municipal,Primario
 111784,,,,175.448,MSVII,Municipal,Primario
 112300,,,,1.334,MSVII,Servicio de Salud,Secundario
@@ -4791,13 +4791,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112320,,,,1955.833,MSVII,Municipal,Primario
 112321,,,,2397.009,MSVII,Municipal,Primario
 112322,,,,2501.3900000000003,MSVII,Municipal,Primario
-112323,,,,7.257000000000001,MSVII,Municipal,No Aplica
+112323,,,,7.257000000000001,MSVII,Municipal,Primario
 112407,,,,2.0700000000000003,MSVII,Municipal,Primario
 112707,,,,175.92600000000002,MSVII,Municipal,Primario
 112716,,,,28.708000000000002,MSVII,Municipal,Primario
 112717,,,,1389.38,MSVII,Municipal,Primario
 112799,,,,1.085,MSVII,Municipal,Primario
-113181,,,,2.5210000000000004,MSVII,,
+113181,,,,2.5210000000000004,MSVII,Servicio de Salud,Secundario
 113300,,,,6035.711,MSVII,Municipal,Primario
 113301,,,,2188.297,MSVII,Municipal,Primario
 113302,,,,4588.302000000001,MSVII,Municipal,Primario
@@ -4857,7 +4857,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113790,,,,684.316,MSVII,Municipal,Primario
 114010,,,,0.2,MSVII,Servicio de Salud,No Aplica
 114102,,,,701.336,MSVII,Servicio de Salud,Terciario
-114150,,,,1.768,MSVII,,
+114150,,,,1.768,MSVII,Servicio de Salud,Secundario
 114301,,,,9279.398000000001,MSVII,Municipal,Primario
 114302,,,,3170.344,MSVII,Municipal,Primario
 114303,,,,5432.112,MSVII,Municipal,Primario
@@ -4880,13 +4880,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114320,,,,4890.836,MSVII,Municipal,Primario
 114321,,,,3747.605,MSVII,Municipal,Primario
 114322,,,,8413.558,MSVII,Municipal,Primario
-114323,,,,2255.4010000000003,MSVII,Delegados ,Primario
+114323,,,,2255.4010000000003,MSVII,Delegado,Primario
 114324,,,,5111.395,MSVII,Municipal,Primario
 114325,,,,4384.924,MSVII,Municipal,Primario
 114326,,,,3394.038,MSVII,Municipal,Primario
-114327,,,,1686.044,MSVII,Delegados ,Primario
+114327,,,,1686.044,MSVII,Delegado,Primario
 114328,,,,3058.199,MSVII,Municipal,Primario
-114329,,,,2318.561,MSVII,Delegados ,Primario
+114329,,,,2318.561,MSVII,Delegado,Primario
 114330,,,,2948.161,MSVII,Municipal,Primario
 114331,,,,5079.070000000001,MSVII,Municipal,Primario
 114332,,,,3969.637,MSVII,Municipal,Primario
@@ -4904,9 +4904,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114714,,,,591.259,MSVII,Municipal,Primario
 114796,,,,37.629000000000005,MSVII,Municipal,Primario
 200037,,,,10.395000000000001,MSVII,Municipal,Primario
-200080,,,,7.965000000000001,MSVII,Municipal,No Aplica
+200080,,,,7.965000000000001,MSVII,Municipal,Primario
 200137,,,,0.234,MSVII,Municipal,Primario
-200188,,,,3.838,MSVII,Municipal,No Aplica
+200188,,,,3.838,MSVII,Municipal,Primario
 200210,,,,706.9630000000001,MSVII,Municipal,Primario
 200236,,,,0.30000000000000004,MSVII,Municipal,Primario
 200265,,,,15.162,MSVII,Municipal,Primario
@@ -4932,7 +4932,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 201112,,,,3308.9240000000004,MSVII,Municipal,Primario
 201129,,,,109.388,MSVII,Municipal,Primario
 201462,,,,2036.8310000000001,MSVII,Municipal,Primario
-311001,,,,1937.797,MSVII,,
+201674,,,,1937.797,MSVII,Municipal,Primario
 5013502,,,,0.234,MSVII,,
 109300,,12,0.0,7082.002,MSVII,Municipal,Primario
 109301,,12,0.0,4459.736,MSVII,Municipal,Primario
@@ -4956,7 +4956,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109323,,12,0.0,2055.139,MSVII,Municipal,Primario
 109324,,12,0.0,5124.534000000001,MSVII,Municipal,Primario
 109390,,12,0.0,2880.3320000000003,MSVII,Otra Institución,Primario
-109407,,12,0.0,1093.909,MSVII,,
+109407,,12,0.0,1093.909,MSVII,Municipal,Primario
 109410,,12,0.0,58.40200000000001,MSVII,Municipal,Primario
 109412,,12,0.0,74.908,MSVII,Municipal,Primario
 109413,,12,0.0,67.054,MSVII,Municipal,Primario
@@ -4973,7 +4973,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 109715,,12,0.0,360.22200000000004,MSVII,Municipal,Primario
 109716,,12,0.0,122.117,MSVII,Municipal,Primario
 109718,,12,0.0,860.392,MSVII,Municipal,Primario
-110160,,12,0.0,2091.559,MSVII,Servicio de Salud,Pendiente
+110160,,12,0.0,2091.559,MSVII,Servicio de Salud,
 110300,,12,0.0,0.334,MSVII,Servicio de Salud,Secundario
 110308,,12,0.0,4348.43,MSVII,Municipal,Primario
 110310,,12,0.0,2815.818,MSVII,Servicio de Salud,Primario
@@ -5028,7 +5028,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 110503,,12,0.0,161.161,MSVII,Municipal,Primario
 110505,,12,0.0,3.2550000000000003,MSVII,Municipal,Primario
 110510,,12,0.0,8.612,MSVII,Municipal,Primario
-110515,,12,0.0,0.9680000000000001,MSVII,,
+110515,,12,0.0,0.9680000000000001,MSVII,Municipal,Primario
 110601,,12,0.0,0.117,MSVII,Privado,Secundario
 110627,,12,0.0,0.1,MSVII,Municipal,Secundario
 110720,,12,0.0,3.0210000000000004,MSVII,Municipal,Primario
@@ -5066,10 +5066,10 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 111382,,12,0.0,4801.309,MSVII,Municipal,Primario
 111383,,12,0.0,3187.362,MSVII,Municipal,Primario
 111400,,12,0.0,34.202000000000005,MSVII,Servicio de Salud,Primario
-111704,,12,0.0,165.88400000000001,MSVII,Municipal,Primario
-111780,,12,0.0,72.887,MSVII,Municipal,Primario
+111704,,12,0.0,165.88400000000001,MSVII,Servicio de Salud,Primario
+111780,,12,0.0,72.887,MSVII,Servicio de Salud,Primario
 111781,,12,0.0,60.57000000000001,MSVII,Servicio de Salud,Primario
-111782,,12,0.0,68.485,MSVII,,
+111782,,12,0.0,68.485,MSVII,Municipal,Primario
 111783,,12,0.0,306.098,MSVII,Municipal,Primario
 111784,,12,0.0,175.448,MSVII,Municipal,Primario
 112300,,12,0.0,1.334,MSVII,Servicio de Salud,Secundario
@@ -5093,13 +5093,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 112320,,12,0.0,1955.833,MSVII,Municipal,Primario
 112321,,12,0.0,2397.009,MSVII,Municipal,Primario
 112322,,12,0.0,2501.3900000000003,MSVII,Municipal,Primario
-112323,,12,0.0,7.257000000000001,MSVII,Municipal,No Aplica
+112323,,12,0.0,7.257000000000001,MSVII,Municipal,Primario
 112407,,12,0.0,2.0700000000000003,MSVII,Municipal,Primario
 112707,,12,0.0,175.92600000000002,MSVII,Municipal,Primario
 112716,,12,0.0,28.708000000000002,MSVII,Municipal,Primario
 112717,,12,0.0,1389.38,MSVII,Municipal,Primario
 112799,,12,0.0,1.085,MSVII,Municipal,Primario
-113181,,12,0.0,2.5210000000000004,MSVII,,
+113181,,12,0.0,2.5210000000000004,MSVII,Servicio de Salud,Secundario
 113300,,12,0.0,6035.711,MSVII,Municipal,Primario
 113301,,12,0.0,2188.297,MSVII,Municipal,Primario
 113302,,12,0.0,4588.302000000001,MSVII,Municipal,Primario
@@ -5159,7 +5159,7 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 113790,,12,0.0,684.316,MSVII,Municipal,Primario
 114010,,12,0.0,0.2,MSVII,Servicio de Salud,No Aplica
 114102,,12,0.0,701.336,MSVII,Servicio de Salud,Terciario
-114150,,12,0.0,1.768,MSVII,,
+114150,,12,0.0,1.768,MSVII,Servicio de Salud,Secundario
 114301,,12,0.0,9279.398000000001,MSVII,Municipal,Primario
 114302,,12,0.0,3170.344,MSVII,Municipal,Primario
 114303,,12,0.0,5432.112,MSVII,Municipal,Primario
@@ -5182,13 +5182,13 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114320,,12,0.0,4890.836,MSVII,Municipal,Primario
 114321,,12,0.0,3747.605,MSVII,Municipal,Primario
 114322,,12,0.0,8413.558,MSVII,Municipal,Primario
-114323,,12,0.0,2255.4010000000003,MSVII,Delegados ,Primario
+114323,,12,0.0,2255.4010000000003,MSVII,Delegado,Primario
 114324,,12,0.0,5111.395,MSVII,Municipal,Primario
 114325,,12,0.0,4384.924,MSVII,Municipal,Primario
 114326,,12,0.0,3394.038,MSVII,Municipal,Primario
-114327,,12,0.0,1686.044,MSVII,Delegados ,Primario
+114327,,12,0.0,1686.044,MSVII,Delegado,Primario
 114328,,12,0.0,3058.199,MSVII,Municipal,Primario
-114329,,12,0.0,2318.561,MSVII,Delegados ,Primario
+114329,,12,0.0,2318.561,MSVII,Delegado,Primario
 114330,,12,0.0,2948.161,MSVII,Municipal,Primario
 114331,,12,0.0,5079.070000000001,MSVII,Municipal,Primario
 114332,,12,0.0,3969.637,MSVII,Municipal,Primario
@@ -5206,9 +5206,9 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 114714,,12,0.0,591.259,MSVII,Municipal,Primario
 114796,,12,0.0,37.629000000000005,MSVII,Municipal,Primario
 200037,,12,0.0,10.395000000000001,MSVII,Municipal,Primario
-200080,,12,0.0,7.965000000000001,MSVII,Municipal,No Aplica
+200080,,12,0.0,7.965000000000001,MSVII,Municipal,Primario
 200137,,12,0.0,0.234,MSVII,Municipal,Primario
-200188,,12,0.0,3.838,MSVII,Municipal,No Aplica
+200188,,12,0.0,3.838,MSVII,Municipal,Primario
 200210,,12,0.0,706.9630000000001,MSVII,Municipal,Primario
 200236,,12,0.0,0.30000000000000004,MSVII,Municipal,Primario
 200265,,12,0.0,15.162,MSVII,Municipal,Primario
@@ -5234,5 +5234,5 @@ IdEstablecimiento,Ano,Mes,Numerador,Denominador,MetaSanitaria,Dependencia Admini
 201112,,12,0.0,3308.9240000000004,MSVII,Municipal,Primario
 201129,,12,0.0,109.388,MSVII,Municipal,Primario
 201462,,12,0.0,2036.8310000000001,MSVII,Municipal,Primario
-311001,,12,0.0,1937.797,MSVII,,
+201674,,12,0.0,1937.797,MSVII,Municipal,Primario
 5013502,,12,0.0,0.234,MSVII,,
