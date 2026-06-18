@@ -46,6 +46,7 @@ df_ms1 = df_ms1.groupby(['IdEstablecimiento']).agg({
 df_ms1['Porcentaje'] = df_ms1['Numerador'] / df_ms1['Denominador']
 
 st.title(meta_titulo)
+st.warning("Datos disponibles a partir de Julio")
 
 FILTERS = {
     "servicio_salud": "Servicio de Salud",
@@ -152,13 +153,13 @@ fig = go.Figure(go.Indicator(
     title={'text': 'INDICADOR'},
     gauge={
         'axis': {'range': [0, 100]},
-        'bar': {'color': "blue"},
+        'bar': {'color': "#FE6565"},
         'bgcolor': "white",
         'borderwidth': 2,
         'bordercolor': "gray",
         'steps': [
-            {'range': [0, gauge_limit], 'color': "gray"},
-            {'range': [gauge_limit, 100], 'color': "lightgray"}
+            {'range': [0, gauge_limit], 'color': "#EAF4FA"},
+            {'range': [gauge_limit, 100], 'color': "#cfe6f4"}
         ],
         'threshold': {
             'line': {'color': "black", 'width': 4},
@@ -204,7 +205,7 @@ fig.add_shape(
     y0=gauge_limit,
     x1=len(df_cumplimiento['comuna']) - 1,
     y1=gauge_limit,
-    line=dict(color="red", width=2, dash="dash"),
+    line=dict(color="#FE6565", width=2, dash="dash"),
 )
 
 fig.update_layout(

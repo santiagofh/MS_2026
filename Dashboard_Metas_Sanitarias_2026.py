@@ -1,7 +1,64 @@
+from pathlib import Path
 import streamlit as st
 import pandas as pd
 
+BASE_DIR = Path(__file__).resolve().parent
+
+st.set_page_config(
+    page_title="Dashboard Metas Sanitarias 2026",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+st.markdown(
+    """
+    <style>
+    :root {
+        --gob-red: #FE6565;
+        --gob-blue: #006FB3;
+        --gob-blue-soft: #EAF4FA;
+    }
+
+    .stApp h1, .stApp h2, .stApp h3 {
+        color: var(--gob-blue);
+        font-weight: 700;
+    }
+
+    .stApp [data-testid="stMetric"] {
+        background: linear-gradient(180deg, #ffffff 0%, var(--gob-blue-soft) 100%);
+        border: 1px solid #cfe6f4;
+        border-radius: 12px;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .stApp button[kind="primary"] {
+        background-color: var(--gob-red);
+        border-color: var(--gob-red);
+    }
+
+    .stApp button[kind="secondary"] {
+        border-color: var(--gob-blue);
+        color: var(--gob-blue);
+    }
+
+    section[data-testid="stSidebar"] {
+        border-right: 1px solid #cfe6f4;
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.logo(
+    str(BASE_DIR / "assets" / "seremi_sidebar_logo.svg"),
+    size="large",
+    icon_image=str(BASE_DIR / "assets" / "seremi_sidebar_icon.svg"),
+)
+
 def home():
+    st.warning("Datos Provisorios")
+
     st.title('Bienvenidos al Dashboard de Metas Sanitarias 2026')
 
     st.subheader('Sistema integral para el seguimiento y control de las metas sanitarias')
@@ -18,29 +75,6 @@ def home():
     fecha_corte = pd.read_csv("Fecha_corte_REM.csv")
     st.write(fecha_corte[['REM', 'Fecha_corte']].rename(columns={'Fecha_corte': 'Fecha Corte'}))
     st.write(""" comprometidos a proporcionar información precisa y actualizada para apoyar la toma de decisiones en el ámbito de la salud pública.""")
-
-    st.subheader("Correspondencia de códigos FONASA → DEIS")
-
-    st.info("""
-    Al cruzar los datos REM/FONASA con el listado oficial de establecimientos
-    del DEIS, **2 códigos** no fueron encontrados en el registro vigente.
-
-    Para no excluir a estos establecimientos del cálculo de las Metas Sanitarias 2026,
-    se realizó una **correspondencia manual** con su código DEIS actual:
-    """)
-
-    cw = pd.DataFrame({
-        "Código en FONASA": ["311001"],
-        "Código DEIS vigente": ["201674"],
-        "Nombre": ["CESFAM El Abrazo Dr. Salvador Allende Gossens"],
-    })
-    st.table(cw)
-
-    st.caption("""
-    El código **5013502** (Dasalhué, comuna de Alhué) no pudo ser vinculado
-    a ningún código DEIS vigente. Representa aproximadamente 4 inscritos en total,
-    impacto insignificante en el cálculo.
-    """)
 
 pages = {
     "Menu principal": [
