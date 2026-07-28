@@ -393,23 +393,7 @@ def calcular_MSVII(df_rem, fonasa_rm, region_id):
                         on='IdEstablecimiento',
                         how='outer')
 
-    registros_extra = []
-    for establecimiento in df_merge['IdEstablecimiento'].unique():
-        if not ((df_merge['IdEstablecimiento'] == establecimiento) & (df_merge['Mes'] == 12)).any():
-            denominador = df_merge.loc[df_merge['IdEstablecimiento'] == establecimiento, 'Denominador_MSVII'].values[0]
-            ano = df_merge.loc[df_merge['IdEstablecimiento'] == establecimiento, 'Ano'].values[0]
-
-            registros_extra.append({
-                'IdEstablecimiento': establecimiento,
-                'Ano': ano,
-                'Mes': 12,
-                'Numerador_MSVII': 0,
-                'Denominador_MSVII': denominador
-            })
-
-    df_extra = pd.DataFrame(registros_extra)
-    df_final = pd.concat([df_merge, df_extra], ignore_index=True)
-    return df_final
+    return df_merge
 
 
 df_MSI = calcular_MSI(df_rem_2025, df_rem_2026, region_id)
