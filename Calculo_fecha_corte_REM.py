@@ -7,7 +7,7 @@ base_dir = r"D:\DATA\REM\REM_2026\Datos"
 path_REM_A = os.path.join(base_dir, "SerieA2026.csv")
 path_REM_BM = os.path.join(base_dir, "SerieBM2026.csv")
 path_REM_BS = os.path.join(base_dir, "SerieBS2026.csv")
-path_REM_D = os.path.join(base_dir, "SerieP2026.csv")
+path_REM_D = os.path.join(base_dir, "SerieD2026.csv")
 path_REM_P = os.path.join(base_dir, "SerieP2026.csv")
 
 def obtener_fecha_corte(ruta_archivo):
